@@ -105,7 +105,7 @@ void final_next(double x) {
 
 6. Implement the main function
 
-.
+```cpp
 int main() {
     // Initialize the semaphores
     for (int i = 0; i < max_num_threads; ++i) {
@@ -154,5 +154,58 @@ int main() {
 
     return 0;
 }
+```
+
+ 
+
+7. Use helper function to calculate the values for the next input:
+```cpp
+void final_next(double x) {
+    // Perform calculations to get the values for the next input
+    next_input[0] = value_1;
+    next_input[1] = value_2;
+    cout << endl;
+    cout << "Values for next input are  " << next_input[0] << " and  " << next_input[1] << endl;
+}
+```
+
+
+8. Pass the updated values of the output to the next cpp file whose comiplationed file is named ./q2 using:
+
+# You can change the ./q2 to whatever you like to just named it exactly the compiled file you make
+
+## For Example
+```bash
+ g++ -pthread forward_backward_propagation_1.cpp -o q1
+  g++ -pthread forward_propagation_2.cpp -o q2
+  
+  # in the End you need to run the q1 
+
+./q1
+
+# this will also exexcute your q2 file.
+```
+
+## For Sending Values to the next file forward_propagation_2.cpp
+
+```cpp
+ execlp("./q2", "./q2", oss.str().c_str(), (char *)NULL);
+```
+
+
+
+9. Recieve the data in the argumentd of the main of the next file and put it into another array
+
+```cpp
+int main(int argc, char *argv[])
+{
+   std::istringstream iss(argv[1]);
+
+   // Parse the string back into double values
+   iss >> input[0] >> input[1];
+
+   std::cout << "Values: " << input[0] << ", " << input[1] << '\n';
+```
+
 
 
