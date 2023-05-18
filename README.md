@@ -2,6 +2,19 @@
 
 The provided code is an implementation of a neural network. It consists of multiple processes and threads working together to perform the calculations. Below is a step-by-step guide explaining the code functionality:
 
+
+
+
+<img width="960" alt="Neural1" src="https://github.com/MuhammadAliAhson/Neural-Network-From-Scratch-in-Cpp-using-Pipes/assets/105967134/8f94044b-06f6-4b87-bf4d-b946bdfd8124">
+<img width="960" alt="Neural2" src="https://github.com/MuhammadAliAhson/Neural-Network-From-Scratch-in-Cpp-using-Pipes/assets/105967134/9f190e04-09e5-4635-8c95-40942e722de8">
+<img width="960" alt="Neural3" src="https://github.com/MuhammadAliAhson/Neural-Network-From-Scratch-in-Cpp-using-Pipes/assets/105967134/e70a3a9f-a4c1-4aff-88ca-c08f53fac6a1">
+<img width="960" alt="Neural4" src="https://github.com/MuhammadAliAhson/Neural-Network-From-Scratch-in-Cpp-using-Pipes/assets/105967134/eba86c42-92dc-4efe-871e-800ab38de612">
+
+
+
+
+
+
 1. Include the necessary libraries:
 ```cpp
 #include <iostream>
