@@ -220,5 +220,8 @@ int main(int argc, char *argv[])
    std::cout << "Values: " << input[0] << ", " << input[1] << '\n';
 ```
 
+CopyRight,
 
+This is Code is totally done by Muhammad Ali Ahson.
+If you like this code then
 
