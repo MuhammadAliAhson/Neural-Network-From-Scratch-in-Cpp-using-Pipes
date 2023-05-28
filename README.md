@@ -223,5 +223,5 @@ int main(int argc, char *argv[])
 CopyRight,
 
 This is Code is totally done by Muhammad Ali Ahson.
-If you like this code then
+If you like this code then please star this repo and folow me.
 
